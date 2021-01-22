@@ -8,6 +8,6 @@
 ### Author : 정윤상 (Yunsang Jeong)
 ## Tech Stack
 
-Front End : React.js + TypeScript
-State : Redux
-Back End (API) : Nest.js '추후 따로 레포 연결예정'
+Front End : React.js + TypeScript  
+State : Redux  
+Back End (API) : Nest.js '추후 따로 레포 연결예정'  
