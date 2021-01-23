@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports={
     entry:{
         index: './src/index.tsx'
@@ -9,6 +11,11 @@ module.exports={
     mode: 'development',
     devtool : 'source-map',
     resolve: {
+        alias:{
+            '@src': path.resolve(__dirname, 'src'),
+            '@res': path.resolve(__dirname, 'res'),
+            '@styles': path.resolve(__dirname, 'styles'),
+        },
         extensions: ['.ts', '.tsx', 'js', 'jsx']
     },
     module: {

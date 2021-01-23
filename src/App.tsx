@@ -1,7 +1,6 @@
 import * as React from "react";
 import "./App.css";
-import { Container, Typography } from "@material-ui/core";
-
+import LoginPage from "./account/login"
 class App extends React.Component {
     constructor(props: {}) {
         super(props);
@@ -10,16 +9,7 @@ class App extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Container maxWidth="sm">
-                    <div style={{backgroundColor: 'skyblue'}}>
-                        <Typography variant="h2" component="div" style={{ marginTop: "24px", textAlign: "center" }}>
-                            toss
-                        </Typography>
-                        <Typography variant="h3" component="div" style={{ textAlign: "center" }}>
-                            Login
-                        </Typography>
-                    </div>
-                </Container>
+                <LoginPage/>
             </React.Fragment>
         );
     }
